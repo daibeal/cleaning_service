@@ -509,7 +509,7 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/about2.jpg) center center no-repeat;
+    /* background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-main.jpg) center center no-repeat; */
     background-size: cover;
 }
 
@@ -571,6 +571,10 @@ h6,
 
 /* if mobile remove img from carousel and place white color */
 @media (max-width: 768px) {
+    .navbar{
+        background-color: var(--primary) !important;
+        
+    }
     .carousel-item img{
         display: none;
 
@@ -578,12 +582,48 @@ h6,
     .carousel-item{
        
         height: 40rem;
-        background-image: url(../img/phone-main.jpg);
-        background-size: cover;
+        background-image: url(../img/daiga-ellaby-uooMllXe6gE-unsplash.jpg);
         background-position: center;
         background-repeat: no-repeat;
         
     }
+    .carousel-item .carousel-caption{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        
+        
+    }
+    .carousel-item .carousel-caption h1{
+        font-size: 3rem;
+        color: white;
+    }
+    /*hide arrows*/
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+    /*add paralax effect*/
+    .carousel-item{
+        background-attachment: fixed;
+        /*avoid blurry background*/
+        background-size: cover !important;
+
+
+    }
+    /*make nav bar stiky*/
+     .navbar{
+        position: sticky !important;
+        top: 0;
+        z-index: 19999 !important;
+    } 
+
+    
+
+
+
+
 }
 
 
