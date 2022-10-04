@@ -175,8 +175,8 @@ h6,
 }
 
 .navbar-dark .navbar-toggler {
-    color: var(--primary) !important;
-    border-color: var(--primary) !important;
+    color: var(--light) !important;
+    border-color: var(--light) !important;
 }
 
 @media (max-width: 991.98px) {
