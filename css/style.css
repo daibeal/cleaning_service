@@ -626,4 +626,13 @@ h6,
 
 }
 
+/* make left-c and right-c appear next to each other */
+.left-c, .right-c{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
 
