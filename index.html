@@ -320,7 +320,7 @@
                 <h5 class="fw-bold text-primary text-uppercase">PRISPLANER</h5>
                 <h1 class="mb-0">Vi erbjuder konkurrenskraftiga priser för våra kunder</h1>
             </div>
-            <div class="row g-0">
+            <div class="row g-0 row-p">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="bg-light rounded">
                         <div class="border-bottom py-4 px-5 mb-4">
@@ -340,7 +340,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s" >
                     <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
                         <div class="border-bottom py-4 px-5 mb-4">
                             <h4 class="text-primary mb-1">Storstädning</h4>
@@ -423,6 +423,10 @@
                                     <!-- <input type="tel" name="phone" class="form-control bg-light border-0" placeholder="Mobiletelefon" style="height: 55px;"> -->
                                     <input type="tel" id="phone" name="phone"  class="form-control bg-light border-0" placeholder="Mobiletelefon" style="height: 55px;">
                                 </div>
+                                <div class="col-12">
+                                    <!-- <input type="tel" name="phone" class="form-control bg-light border-0" placeholder="Mobiletelefon" style="height: 55px;"> -->
+                                    <input type="text" id="address" name="address"  class="form-control bg-light border-0" placeholder="Adress" style="height: 55px;">
+                                </div>
                                 <!-- <label for="slider" style="color: white;">Kvadratmeter på bostad</label> -->
                                 <div class="col-12 slidecontainer" style="color: white; text-align: center;">
                                     <!-- <input type="tel" name="phone" class="form-control bg-light border-0" placeholder="Mobiletelefon" style="height: 55px;"> -->
@@ -445,7 +449,7 @@
                                     <textarea class="form-control bg-light border-0" rows="3" placeholder="Meddelande" name="message"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Begär en offert</button>
+                                    <button id="form-btn"class="btn w-100 py-3" type="submit">Begär en offert</button>
                                 </div>
                             </div>
                         </form>
@@ -562,7 +566,10 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <div id="back-to-top">
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+    
 
 
     <!-- JavaScript Libraries -->
