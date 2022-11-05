@@ -6,14 +6,17 @@
 ## Description
 Local business webpage for Gretty Städ & Service AB
 ## Installation
-'''bash
+
+```bash
 git clone daibeal/cleaning_service
 cd cleaning_service
-'''
+```
+
 ## Usage
-'''bash
+
+```bash
 code .
-'''
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 ## License
